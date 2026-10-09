@@ -1,0 +1,600 @@
+# PROJECT: AMGK SKYVISION — SKYVISION BLACK
+## Build a Complete, Production-Quality Automotive Agency Website
+
+Act as a senior creative director, award-winning UI/UX designer, motion designer, and senior React engineer.
+
+Build a complete, visually exceptional, responsive website for **AMGK SkyVision**, an automotive content production and social media agency that primarily serves used-car dealerships.
+
+This is Demo Concept 01 of two alternative website concepts. The design must look like a premium automotive film studio, not a generic marketing template.
+
+The website must have a complete working frontend, all required pages, responsive layouts, functional interactions, reusable components, realistic content based on the supplied business information, and production-quality code.
+
+Do not just produce a landing page, a wireframe, or a design description. Build the actual working application.
+
+## 1. TECHNOLOGY STACK
+
+Use:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS if properly configured; otherwise use a clean, consistent CSS architecture
+- React Router for navigation
+- Framer Motion for animation
+- Lucide React for icons
+- React Hook Form and Zod for form validation if compatible with the project
+
+Use the dependencies already installed where appropriate. Install missing dependencies correctly and ensure the project runs.
+
+Use reusable components, typed data models, clean folder organization, semantic HTML, and accessible interactions.
+
+Do not introduce unnecessary backend services, authentication, payment gateways, or database requirements for this frontend demo.
+
+## 2. BRAND AND CREATIVE DIRECTION
+
+Brand: AMGK SkyVision
+
+Business positioning:
+Automotive video production, short-form content, drone footage where suitable, social media content, and campaign performance monitoring for used-car dealerships.
+
+Brand personality:
+- Premium
+- Cinematic
+- Precise
+- Bold
+- Modern
+- Automotive-focused
+- Results-oriented
+
+Visual direction:
+- Background: midnight black #05080D
+- Secondary background: #0B121B
+- Card background: #101923
+- Cyan accent: #22D3EE
+- Neon green accent: #6EE7A8
+- Main text: #F7FAFC
+- Secondary text: #A7B3C2
+- Thin borders with subtle cyan transparency
+
+Typography:
+Use a modern geometric sans-serif such as Space Grotesk for headings and Inter for body text. Use a variable font if available.
+
+Use large headlines, strong visual contrast, spacious layouts, cinematic images, restrained gradients, and sophisticated transitions.
+
+Do not cover the entire website with glowing borders, neon effects, gradients, or glassmorphism. The design must remain professional.
+
+## 3. WEBSITE PAGES AND ROUTES
+
+Create these complete pages:
+
+1. / — Home
+2. /services — Services
+3. /work — Portfolio
+4. /packages — Pricing and packages
+5. /process — Three-month campaign process
+6. /contact — Contact and campaign enquiry
+7. /privacy — Privacy policy placeholder with responsible data-handling language
+
+All routes must work when accessed directly and when refreshed.
+
+Create a shared header, footer, reusable buttons, service cards, package cards, video cards, CTA sections, form components, and motion utilities.
+
+Add a custom 404 page with a working button back to Home.
+
+## 4. HEADER AND NAVIGATION
+
+Create a premium fixed or sticky header.
+
+Left:
+AMGK SKYVISION wordmark. If no official logo asset is available, create a typographic text logo with a small drone-inspired geometric symbol. Do not invent a replacement corporate logo that misrepresents the original brand.
+
+Desktop navigation:
+Home, Services, Our Work, Packages, Our Process, Contact.
+
+Primary CTA:
+"GET A CAMPAIGN PROPOSAL"
+
+Header behavior:
+- Transparent over the hero
+- Transitions to a dark opaque background when scrolling
+- Smooth anchor navigation on the homepage
+- Proper React Router navigation for separate pages
+- Mobile hamburger menu that opens and closes correctly
+- Escape-key support and appropriate accessibility attributes
+- Active navigation states
+- Visible keyboard focus
+
+The header must never obscure page content.
+
+## 5. HOMEPAGE — EXACT SECTION ORDER
+
+### Section A: Cinematic Hero
+
+Create a full-screen or near-full-screen hero with a premium automotive background video or cinematic still.
+
+Use an actual suitable remote image/video only when available and reliable. If no video asset is available, use a high-quality automotive photograph with a dark overlay. Never show a broken video or blank black media container.
+
+Hero eyebrow:
+AUTOMOTIVE CONTENT / SOCIAL MEDIA / GROWTH
+
+Headline:
+"MAKE EVERY CAR
+WORTH A SECOND LOOK."
+
+Supporting copy:
+"We turn dealership inventory into cinematic videos, engaging social content, and more opportunities to connect with potential buyers."
+
+Primary CTA:
+"EXPLORE OUR PACKAGES"
+
+Secondary CTA:
+"WATCH OUR WORK"
+
+Small supporting label:
+"CONTENT. CREATIVE. CONSISTENCY."
+
+Hero requirements:
+- Large, editorial typography
+- Dark cinematic overlay
+- Subtle parallax or depth effect where performant
+- Staggered entrance animation
+- Scroll indicator
+- Optional small decorative technical grid
+- Realistic car imagery
+- Strong contrast and legibility
+
+Do not use a large fake dashboard, meaningless numerical metrics, or fabricated client results in the hero.
+
+### Section B: Service Value Strip
+
+Display four compact items:
+- Vehicle Storytelling
+- Cinematic Production
+- Short-Form Content
+- Performance Insights
+
+Use restrained icons and a horizontal layout on desktop that wraps or scrolls appropriately on mobile.
+
+### Section C: Featured Showreel
+
+Section heading:
+"BUILT TO MAKE CARS STAND OUT."
+
+Subheading:
+"Every vehicle has a story. We create the visuals that help tell it."
+
+Create a featured video card and a responsive grid of video previews.
+
+Categories:
+- Car Walkarounds
+- Vehicle Features
+- Interior B-Roll
+- Drone Footage
+- Promotions
+- Presenter-Led Videos
+
+Implement a working video modal or inline player. Clicking a valid video opens playback, provides close controls, and supports Escape to close.
+
+If no real AMGK videos are available, use clearly labeled illustrative demo assets or replace the media with suitable car photographs. Never claim placeholder work is actual client work.
+
+### Section D: Services
+
+Heading:
+"MORE THAN VIDEOGRAPHY."
+
+Subheading:
+"One creative partner for your dealership's content workflow."
+
+Create six service cards:
+
+1. Content Planning
+Plan monthly content around available inventory, promotions, audience, and trends.
+
+2. Script & Concept
+Develop concepts, hooks, scripts, and creative ideas for talent-led videos.
+
+3. Video Production
+Professional vehicle filming, interior and exterior B-roll, detail shots, and drone footage where suitable.
+
+4. Video Editing
+Polished editing, music, captions, subtitles, transitions, color grading, and motion graphics where suitable.
+
+5. Social Media Content
+Content prepared for TikTok, Instagram Reels, and Facebook Reels.
+
+6. Monitor & Engage
+Monitor available performance metrics, observe audience engagement, and improve future content.
+
+Each card needs:
+- Icon
+- Number
+- Short description
+- Relevant automotive imagery or visual treatment
+- Working link to the Services page
+
+Use elegant hover interactions and staggered reveals.
+
+### Section E: Why AMGK
+
+Heading:
+"YOUR INVENTORY. A BETTER STORY."
+
+Explain five dealership-specific challenges and the corresponding service:
+- Unremarkable vehicle listings → engaging vehicle presentation
+- Inconsistent posting → planned short-form content
+- Repetitive videos → varied creative formats
+- Unclear content performance → performance monitoring
+- Untracked social enquiries → enquiry tracking when reliable data is available
+
+Do not promise sales, guaranteed growth, or viral reach.
+
+### Section F: Featured Packages
+
+Display all four package cards using the exact supplied pricing and deliverables described in the PACKAGE DATA section below.
+
+Premium should have a subtle "BEST VALUE" label because the proposal identifies it that way.
+
+Each card must have a working link to /packages and preselect the relevant package on /contact.
+
+Do not invent discounts, free trials, savings percentages, or additional deliverables.
+
+### Section G: Three-Month Campaign Timeline
+
+Show three connected stages:
+
+MONTH 01 — SET UP & BUILD
+Understand the dealership, plan content, publish initial content, and study the initial audience response.
+
+MONTH 02 — OPTIMIZE & GROW
+Adjust creative formats based on performance, test content styles, and focus on strong-performing content.
+
+MONTH 03 — ANALYZE & IMPROVE
+Continue the agreed content plan, collect available performance data, and prepare a three-month analysis and next-step strategy.
+
+Use an animated timeline with subtle connecting lines and responsive stacked cards on mobile.
+
+### Section H: Reporting Preview
+
+Heading:
+"REAL DATA. BETTER DECISIONS."
+
+Create an attractive sample report visualization or dashboard preview showing metric categories:
+- Video views
+- Reach and impressions
+- Engagement
+- Follower growth
+- Profile visits
+- Enquiries and messages
+- Top-performing content
+
+Label the section "ILLUSTRATIVE REPORT PREVIEW" unless the client supplies actual data.
+
+Never present sample numbers or example percentage increases as actual AMGK campaign results.
+
+### Section I: FAQ
+
+Implement accessible accordion items covering:
+- What types of dealerships do you work with?
+- What is included in each package?
+- How does the three-month campaign work?
+- Is filming included?
+- Which platforms are supported?
+- Can we request a single-car video?
+- How do we get a campaign proposal?
+- Are travel and additional production costs included?
+
+For uncertain commercial terms, answer honestly: "This is confirmed during the campaign proposal." Do not invent policies.
+
+### Section J: Final CTA
+
+Headline:
+"READY TO PUT YOUR DEALERSHIP IN THE SPOTLIGHT?"
+
+Supporting copy:
+"Let's build a content strategy around your inventory, audience, and dealership goals."
+
+Buttons:
+- Contact Us on WhatsApp
+- Explore Packages
+
+### Section K: Footer
+
+Include:
+- AMGK SkyVision wordmark
+- Short company description
+- Page navigation
+- Services links
+- Packages link
+- Contact information
+- Instagram and TikTok links
+- Privacy policy link
+- Copyright notice
+
+Use supplied contact information only after configuring it in one central business settings file.
+
+## 6. SERVICES PAGE
+
+Create a dedicated, complete Services page.
+
+Include:
+- Cinematic introduction
+- Six detailed service sections
+- Relevant media or visual demonstrations
+- Deliverables for each service
+- A clear distinction between content production and ongoing social media management
+- Package-dependent notes where appropriate
+- CTA after every two or three service sections
+- Final enquiry CTA
+
+Do not claim that every package includes identical posting, account management, drone filming, or talent arrangements.
+
+## 7. PORTFOLIO PAGE
+
+Build a real, filterable portfolio experience.
+
+Filters:
+All Work, Car Walkarounds, Vehicle Features, Interior B-Roll, Drone Footage, Promotions, Presenter-Led Videos.
+
+Requirements:
+- Responsive masonry or editorial grid
+- High-quality thumbnail images
+- Category labels
+- Video duration only when known
+- Hover preview only where supported
+- Play buttons for valid video assets
+- Accessible video modal
+- Empty state if a category has no projects
+- Smooth filter transitions
+- CTA to enquire about a similar project
+
+Use a central project data file so real videos can be added later without modifying the grid component.
+
+Never represent stock images or placeholder footage as verified AMGK client projects.
+
+## 8. PACKAGES PAGE
+
+Create four detailed pricing cards with a comparison table.
+
+PACKAGE 1 — PREMIUM
+RM 2,800 per month
+RM 8,400 total for three months
+12 short-form videos.
+
+Includes:
+- Content strategy and planning
+- Creative concepts and scriptwriting
+- Freelance talent included
+- Professional videography
+- Interior and exterior vehicle B-roll
+- Premium video editing
+- Motion graphics where suitable
+- Captions and subtitles
+- Content posting and management
+- Engagement monitoring
+- Performance monitoring
+- Three-month performance analysis
+
+PACKAGE 2 — STANDARD
+RM 2,000 per month
+RM 6,000 total for three months
+12 short-form videos.
+
+Includes:
+- Content planning
+- Scriptwriting
+- Freelance talent included
+- Professional videography
+- Interior and exterior B-roll
+- Standard video editing
+- Captions and subtitles
+- Content posting
+- Engagement monitoring
+- Performance monitoring
+- Three-month performance analysis
+
+PACKAGE 3 — CAR B-ROLL
+RM 1,500 per month
+RM 4,500 total for three months
+10 edited videos.
+
+Includes:
+- One video per vehicle
+- Exterior and interior B-roll
+- Vehicle feature and detail shots
+- Professional editing
+- Music and vehicle specifications
+- Social-media-ready delivery
+- Performance monitoring
+- Three-month performance analysis
+
+PACKAGE 4 — SINGLE CAR
+RM 250 one-time
+One vehicle shoot and one edited short-form video.
+
+Includes:
+- Exterior and interior B-roll
+- One edited short-form video
+- Vehicle information text
+- Social-media-ready delivery
+
+Mark the Single Car package as "ONE-TIME — NO SUBSCRIPTION."
+
+Important pricing rules:
+- Use Malaysian ringgit (RM).
+- Do not convert prices into another currency.
+- Do not invent a setup fee or discount.
+- Do not assume payment schedules beyond the proposal.
+- Clearly distinguish monthly rates from three-month totals.
+- Do not imply that the three-month packages renew automatically.
+- Add a short note that final production arrangements and any additional costs are confirmed in the proposal.
+
+The package cards and comparison table must be fully responsive.
+
+Every CTA should navigate to /contact?package=PACKAGE_SLUG and automatically select the corresponding package.
+
+## 9. OUR PROCESS PAGE
+
+Create an editorial five-step process:
+1. Discovery and dealership goals
+2. Content planning and creative concepts
+3. Production and editing
+4. Publishing and performance monitoring
+5. Reporting and next-step strategy
+
+Explain the three-month campaign in more detail.
+
+Show what is planned for Month 1, Month 2, and Month 3 using the proposal's actual framing.
+
+Do not guarantee numerical performance improvements.
+
+## 10. CONTACT PAGE AND FUNCTIONAL FORM
+
+Build a professional campaign enquiry page.
+
+Include:
+- Dealership name
+- Contact person's name
+- Business email
+- WhatsApp or phone
+- Preferred contact method
+- Package selection
+- Approximate inventory size
+- Main campaign objective
+- Optional message
+
+Validate required fields and email formatting. Display field-specific errors.
+
+Requirements:
+- Prefill the selected package from the query parameter.
+- Show a clear success or error state.
+- Prevent accidental duplicate submissions.
+- Provide accessible labels and keyboard navigation.
+- Include a WhatsApp alternative.
+- Never show a fake success message if submission fails.
+
+For this frontend demo, implement a working WhatsApp handoff using the configured business phone number and a prefilled enquiry message.
+
+For email or CRM submissions, create a clearly documented integration interface and use a secure server endpoint if one is available. If no backend or provider credentials exist, explain this in the interface or development documentation. Never expose API keys in frontend code.
+
+## 11. BUSINESS SETTINGS
+
+Create one central configuration file containing:
+- Business name: AMGK SkyVision
+- Phone number from the approved proposal: 011-3582 8706
+- Contact name from the proposal: KuhAn
+- Instagram handle: @amgk.skyvision
+- TikTok handle: @amgk.skyvision
+- Portfolio URL from the approved PDF
+
+Treat these as unverified configuration values. The developer or business owner must confirm the correct international phone format, live social profile URLs, and current portfolio link before production.
+
+Use a configurable placeholder for email if no verified email is provided.
+
+Do not invent an email address, testimonials, office address, team biography, or social links.
+
+For WhatsApp, normalize the verified phone number into the correct international format before using wa.me. Do not guess a country code.
+
+## 12. ANIMATION SYSTEM
+
+Use Framer Motion sparingly and consistently.
+
+Implement:
+- Staggered hero text reveal
+- Subtle fade-and-rise section entrances
+- Smooth portfolio modal transitions
+- Gentle card hover elevation
+- Scroll-progress indicator if performant
+- Header background transition
+- Animated campaign timeline
+- Button hover and tap feedback
+- Smooth accordion transitions
+
+Respect prefers-reduced-motion.
+
+Avoid:
+- Scroll hijacking
+- Excessive cursor effects
+- Continuous expensive animations
+- Large animation libraries beyond those required
+- Motion that blocks interactions or delays page content
+
+## 13. RESPONSIVE DESIGN
+
+Test at:
+- 360px mobile
+- 390px mobile
+- 768px tablet
+- 1024px laptop
+- 1440px desktop
+- 1920px wide screen
+
+Requirements:
+- No horizontal overflow
+- Readable typography
+- Working mobile navigation
+- Stacked package cards on mobile
+- Touch-friendly buttons
+- Responsive videos
+- Consistent image aspect ratios
+- Correct form layout
+- Adequate color contrast
+- No overlapping sticky elements
+
+## 14. PERFORMANCE, SEO, AND ACCESSIBILITY
+
+Implement:
+- Unique page titles and meta descriptions
+- Open Graph metadata
+- Semantic headings
+- Descriptive alt text
+- Keyboard-accessible navigation
+- Visible focus indicators
+- Accessible modal and accordion behavior
+- Lazy-loaded images below the fold
+- Responsive image sizing
+- Poster images for videos
+- No autoplay audio
+- Reduced-motion support
+- Custom favicon if suitable brand assets are available
+- Basic organization/business structured data only with verified information
+
+Do not add fake reviews or fake review schema.
+
+## 15. CODE QUALITY AND FINAL VALIDATION
+
+Use reusable components and typed data structures.
+
+Separate:
+- components
+- pages
+- data
+- configuration
+- hooks
+- styles
+- utilities
+
+Keep the service descriptions, package data, portfolio projects, FAQs, and business details in centralized data files.
+
+Before declaring the website complete:
+1. Install dependencies.
+2. Run the development server.
+3. Run the production build.
+4. Fix TypeScript errors and build errors.
+5. Test all routes and navigation.
+6. Test mobile menu.
+7. Test every CTA.
+8. Test pricing preselection in the enquiry form.
+9. Test form validation and failure states.
+10. Test portfolio filters and media interactions.
+11. Verify that no broken images or dead links remain.
+12. Check browser console errors.
+13. Add a README with setup instructions and the exact steps required to configure production contact/form integrations.
+
+Do not claim an integration is live unless it actually works.
+
+## FINAL DESIGN STANDARD
+
+The finished website should feel like a sophisticated automotive production studio with the polish of a premium digital agency.
+
+It should prioritize cinematic storytelling, actual work samples, clear packages, and frictionless enquiries.
+
+Build the full application, not merely a homepage mockup. Start by inspecting the existing project, then implement the design systematically and verify the final production build.

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "AMGK SkyVision"
+description = "A cinematic automotive content and social media agency website for used-car dealerships, with service details, portfolio, transparent package pricing, campaign process, and a campaign enquiry flow."
+version = "1.0.0"
+id = "artifacts/amgk-skyvision"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25480
+
+[services.development]
+run = "pnpm --filter @workspace/amgk-skyvision run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/amgk-skyvision", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/amgk-skyvision/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25480"
+BASE_PATH = "/"
